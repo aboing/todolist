@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todolist</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,
+    user-scalable=0">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="main">
+    <div class="top">
+        <span class="edi"><a href="#">编辑</a></span>
+        <span><a href="#">便签</a></span>
+        <span class="edir"><a href="#"><i class="iconfont">&#xe600;</i></a></span>
+    </div>
+    <div class="bottom">
+        <ul class="content">
+        </ul>
+    </div>
+    <div class="btn">
+        <div class="wait  active">未完成</div>
+        <div class="done">已完成</div>
+    </div>
+</div>
+<div class="mask"></div>
+<div class="pop">
+    <textarea id="textarea"></textarea>
+    <div class="dell"><i class="iconfont">&#xe651;</i></div>
+    <input type="button" value="提交" id="submit">
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/hammer.js"></script>
+<script src="js/index.js"></script>
+
+</html>
